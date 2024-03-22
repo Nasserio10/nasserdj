@@ -1,3 +1,77 @@
-body{
-  background-color: blue;
+.pro{
+
+  text-decoration: underline;
 }
+body{
+  margin: 0;
+  font-family: 'Merriweather',  serif;
+  text-align: center;
+  font-size: 200%
+}
+h1{
+  margin : 50px auto 0 auto;
+  font-family: 'Sacramento',sans-serif;
+  font-size: 5.625rem;  /* 100>16px      90px>*/
+  color:  #66BFBF;
+  line-height: 2;
+  }
+h2{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 0.625rem;
+  color:  #66BFBF;
+}
+h3{
+  font-family: 'Montserrat',sans-serif;
+  color:  #66BFBF;
+}
+.topcontainer{
+  background-color: #E4F9F5;
+   position: relative;
+ padding-top: 100px;
+}
+.middleContainer{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+.bottomContainer{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+.mountain{
+  padding-top: 80px;
+   bottom: 100px;
+
+  }
+.topcloud{
+  padding-top: 30px;
+  position: absolute;
+  right: 300px;
+  top: 20px;
+}
+.bottomcloud{
+  padding-top: 30px;
+  position: absolute;
+  left: 400px;
+}
+.chipPicture{
+  border-radius: 100%;
+    width: 150px;
+   height: 150px;
+      float: left;
+      margin-right: 30px;
+     }
+
+ .arsenalFan{
+       float: right;
+     border-radius: 100%;
+     margin-left: 30px;
+     }
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+ }
